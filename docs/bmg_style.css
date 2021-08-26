@@ -1,0 +1,67 @@
+        /* QR CODE LANDING PAGE */
+        
+       
+body.QR {
+    background-image:linear-gradient(to top right, #525151, black);
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: .5fr 2fr 2fr 2fr 1fr 1fr 1fr;
+}
+
+section.content {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start:2;
+    grid-row-end: 4;
+}
+
+div.logo {
+    display:flex;
+    justify-content:center;
+}
+
+div.logo img {
+    width:50%;
+}
+
+div.head {
+   /* background-color:#b5b5b5;*/
+    background-image:linear-gradient(to bottom right, #d9d9d9, #2d2d2d);
+    border-radius:5px;
+}
+
+h1.QR {
+    font-family: 'Bungee Shade', cursive;
+/*font-family: 'Wallpoet', cursive;*/
+    text-align:center;
+}
+
+div.button {
+ 
+}
+
+h3.button {
+   font-family: 'Bungee Inline', cursive;
+   text-align:center;
+    border-radius: 25px;
+    border-style:outset;
+    border-color:#f0f08d;
+    background-image: radial-gradient(black, #6c6c67);
+}
+
+h3.button a {
+    color:#dedede;
+   
+}
+
+div.text {
+    background-image:linear-gradient(to top left, #fff, #b1b1b1);
+   
+    padding: 10px;
+border-radius: 5px;
+}
+
+p.QR {
+    font-family: 'Expletus Sans', cursive;
+    text-align:center;
+}
